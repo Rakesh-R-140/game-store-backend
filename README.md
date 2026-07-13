@@ -71,3 +71,4 @@ uvicorn main:app --reload
 
 ### Get Games Endpoint
 ![Get Games API](docs/screenshots/get-games-api.png)
+
