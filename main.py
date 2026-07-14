@@ -34,8 +34,10 @@ oauth2_scheme = OAuth2PasswordBearer(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173",
-    "https://game-store-react-js.vercel.app"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://game-store-react-js.vercel.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
